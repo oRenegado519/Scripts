@@ -6,7 +6,7 @@ import subprocess
 class ScriptManager:
     def __init__(self, root):
         self.root = root
-        self.script_folder = r'C:\Users\RECEBIMENTO 1\Documents\Scripts'
+        self.script_folder = r'local_das_pastas_que_estao_os_scripts'
         self.scripts = []
         self.create_gui()
 
