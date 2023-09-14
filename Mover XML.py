@@ -9,7 +9,7 @@ def selecionar_arquivos():
         lista_arquivos.insert(tk.END, arquivo)
 
 def mover_arquivos():
-    destino = "Z:\\entrada_saida\\entrada\\nfe\\emp 1 - SUPERMERCADO SOUZA BUENO LTDA"
+    destino = "local_para_ser_movido_o_xml"
     for arquivo in lista_arquivos.get(0, tk.END):
         try:
             shutil.move(arquivo, destino)
