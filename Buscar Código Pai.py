@@ -12,7 +12,7 @@ def buscar_nome(event=None):
 
     try:
         # Abra o arquivo da planilha
-        arquivo = 'C:\\Users\\RECEBIMENTO 1\\Documents\\codpai.xlsx'
+        arquivo = 'C:\\localdeinstalacao.xlsx'
         planilha = load_workbook(arquivo, read_only=True)
 
         nome_encontrado = None
